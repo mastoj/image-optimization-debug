@@ -8,6 +8,11 @@ const nextConfig: NextConfig = {
         hostname: "media.elkjop.com",
         pathname: "/assets/**",
       },
+      {
+        protocol: "https",
+        hostname: "media.elkjoptest.com",
+        pathname: "/assets/**",
+      },
     ],
     minimumCacheTTL: 86400, // TTL for one day
     formats: ["image/avif", "image/webp"],
